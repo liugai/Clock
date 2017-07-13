@@ -15,6 +15,8 @@
 		492576CA1F1756D70058AB0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492576C81F1756D70058AB0B /* LaunchScreen.storyboard */; };
 		492576D51F1756D80058AB0B /* ClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 492576D41F1756D80058AB0B /* ClockTests.m */; };
 		492576E01F1756D80058AB0B /* ClockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 492576DF1F1756D80058AB0B /* ClockUITests.m */; };
+		492576EF1F1757070058AB0B /* LGClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 492576EE1F1757070058AB0B /* LGClockView.m */; };
+		492576F21F1757BB0058AB0B /* NSDate+LGDateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 492576F11F1757BB0058AB0B /* NSDate+LGDateTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		492576DB1F1756D80058AB0B /* ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		492576DF1F1756D80058AB0B /* ClockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockUITests.m; sourceTree = "<group>"; };
 		492576E11F1756D80058AB0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492576ED1F1757070058AB0B /* LGClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGClockView.h; sourceTree = "<group>"; };
+		492576EE1F1757070058AB0B /* LGClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGClockView.m; sourceTree = "<group>"; };
+		492576F01F1757BB0058AB0B /* NSDate+LGDateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+LGDateTools.h"; sourceTree = "<group>"; };
+		492576F11F1757BB0058AB0B /* NSDate+LGDateTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LGDateTools.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				492576BE1F1756D70058AB0B /* AppDelegate.m */,
 				492576C01F1756D70058AB0B /* ViewController.h */,
 				492576C11F1756D70058AB0B /* ViewController.m */,
+				492576ED1F1757070058AB0B /* LGClockView.h */,
+				492576EE1F1757070058AB0B /* LGClockView.m */,
+				492576F01F1757BB0058AB0B /* NSDate+LGDateTools.h */,
+				492576F11F1757BB0058AB0B /* NSDate+LGDateTools.m */,
 				492576C31F1756D70058AB0B /* Main.storyboard */,
 				492576C61F1756D70058AB0B /* Assets.xcassets */,
 				492576C81F1756D70058AB0B /* LaunchScreen.storyboard */,
@@ -276,8 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				492576F21F1757BB0058AB0B /* NSDate+LGDateTools.m in Sources */,
 				492576C21F1756D70058AB0B /* ViewController.m in Sources */,
 				492576BF1F1756D70058AB0B /* AppDelegate.m in Sources */,
+				492576EF1F1757070058AB0B /* LGClockView.m in Sources */,
 				492576BC1F1756D70058AB0B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
